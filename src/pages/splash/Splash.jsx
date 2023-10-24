@@ -9,7 +9,7 @@ const Splash=()=>{
     const navigate=useNavigate();
 
     const gotoLogin=()=>{
-        navigate("/signup");
+        navigate("/emailPrompt");
     }
 
     return(
