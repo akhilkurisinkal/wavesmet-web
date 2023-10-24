@@ -1,0 +1,8 @@
+.icon{
+    width: 80px;
+    height: 80px;
+    background: url("../../assets/images/splashImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
