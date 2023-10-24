@@ -16,13 +16,21 @@
 }
 
 .emailPrompt >:first-child{
-    flex: 1;
+    flex: 0.7;
     display: flex;
     flex-direction: row;
 }
 
 .emailPrompt >:nth-child(2){
-    flex: 9;
+    flex: 9.3;
+}
+
+.emailPrompt >:first-child > *{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .emailPrompt >:first-child >:first-child{
@@ -31,3 +39,4 @@
 .emailPrompt >:first-child >:nth-child(2){
     flex: 9;
 }
+
