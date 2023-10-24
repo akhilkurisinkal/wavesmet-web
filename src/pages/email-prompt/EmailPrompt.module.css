@@ -1,0 +1,33 @@
+.emailPrompt{
+    width: 100%;
+    height: 100svh;
+    margin: 0;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.emailPrompt > *{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.emailPrompt >:first-child{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.emailPrompt >:nth-child(2){
+    flex: 9;
+}
+
+.emailPrompt >:first-child >:first-child{
+    flex: 1;
+}
+.emailPrompt >:first-child >:nth-child(2){
+    flex: 9;
+}
