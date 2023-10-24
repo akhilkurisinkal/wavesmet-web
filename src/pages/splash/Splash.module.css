@@ -1,0 +1,51 @@
+.splash{
+    width: 100%;
+    height: 100svh;
+    margin: 0;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.splash > *{
+    width: 100%;
+}
+
+.splash >:first-child{
+    flex: 9;
+}
+
+.splash >:nth-child(2){
+    flex: 1;
+}
+
+.splash >:nth-child(2) button{
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #006AFF;
+    border-radius: 4px;
+}
+
+.splash .containerFlexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.splash .containerFlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.verticalHorizondalCenter{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
