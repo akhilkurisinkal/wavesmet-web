@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./TextFieldWithEmailIcon.module.css";
-import ArrowBack from '@material-ui/icons/ArrowBackIos';
+
 
 const TextFieldWithEmailIcon=(props)=>{
     return(
-        <div className={styles.textFieldWithIcon}>
+        <div className={`${styles.textFieldWithIcon} ${styles[props.width]}`}>
 
             <div className={styles.typingArea}>
-                <div>
-                    hi
+                <div className={`${styles.textFieldIcon} ${styles[props.icon]}`}>
+                    &nbsp;
                 </div>
                 <div>
                     <input type="text" placeholder={props.placeholder}/>
@@ -17,12 +17,11 @@ const TextFieldWithEmailIcon=(props)=>{
 
 
             <div className={styles.errorArea}>
-                email is invalid
+                &nbsp;
             </div>
             
         </div>
     )
 }
-
 
 export default TextFieldWithEmailIcon;

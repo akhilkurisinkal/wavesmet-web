@@ -12,7 +12,7 @@
 
 .emailPrompt > *{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .emailPrompt >:first-child{
@@ -23,11 +23,25 @@
 
 .emailPrompt >:nth-child(2){
     flex: 9.3;
+    text-align: center;
+   
+}
+
+.emailPrompt >:nth-child(2) > *{
+    text-align: center;
+}
+
+.emailPrompt >:nth-child(2) h3{
+    margin: 8px;
+}
+
+.emailPrompt >:nth-child(2) p{
+    margin: 8px 0px 24px 0px;
 }
 
 .emailPrompt >:first-child > *{
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,5 +52,6 @@
 }
 .emailPrompt >:first-child >:nth-child(2){
     flex: 9;
+   
 }
 

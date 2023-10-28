@@ -1,14 +1,12 @@
 import React from "react";
-import styles from "./EmailPrompt.module.css";
+import styles from "./CreatePassword.module.css"
 import ArrowBack from '@material-ui/icons/ArrowBackIos';
 import TextFieldWithEmailIcon from "../../components/textField/TextFieldWithEmailIcon";
 import Button from "../../components/button/Button";
 
-
-const EmailPrompt=()=>{
-    
+const CreatePassword=()=>{
     return(
-        <div id="emailPrompt" className={styles.emailPrompt}>
+        <div id="createPassword" className="defaultPageLayout">
             <div>
                 <div>
                     <ArrowBack/>
@@ -16,13 +14,13 @@ const EmailPrompt=()=>{
                 <div>&nbsp;</div>
             </div>
             <div>
-                <h3>Your Email Address</h3>
-                <p>Enter your email addrress to get started.</p>
-                <TextFieldWithEmailIcon placeholder="Your email address" icon="emailIcon"/>
+                <h3>Create a password</h3>
+                <p>Passwords safeguard your account and secure your personal data.</p>
+                <TextFieldWithEmailIcon placeholder="Create a password" icon="passwordIcon"/>
                 <Button id="continue"/>
             </div>
         </div>
     )
 }
 
-export default EmailPrompt;
+export default CreatePassword;

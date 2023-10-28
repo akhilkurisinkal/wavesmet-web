@@ -1,6 +1,8 @@
 .textFieldWithIcon{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: auto;
 
 }
 
@@ -14,24 +16,45 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    background-color: yellow;
-    border-bottom: 1px solid rgb(176, 176, 176);
+    background-color: #F4F4F4;
+    border-radius: 8px;
+}
+
+.half{
+    width: 50%;
 }
 
 .typingArea > *{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
 .typingArea >:first-child{
-    flex: 1;
-    background: url("./emailIcon.svg");
+    width: 32px;
+    height: 32px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
     background-position: center;
 }
+
+
+
+.emailIcon{
+    background: url("./emailIcon.svg");
+}
+
+.passwordIcon{
+    background: url("./key.svg");
+}
+
+.codeIcon{
+    background: url("./codeIcon.svg");
+}
+
+
 
 .typingArea >:nth-child(2){
     flex: 9;
@@ -45,6 +68,8 @@
     border: none;
     font-size: 16px;
     padding-top: auto;
+    background-color: #F4F4F4;
+    border-radius: 8px;
 }
 
 
