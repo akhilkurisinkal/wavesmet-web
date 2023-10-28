@@ -5,6 +5,7 @@ import TextFieldWithEmailIcon from "../../components/textField/TextFieldWithEmai
 
 
 const EmailPrompt=()=>{
+    
     return(
         <div id="emailPrompt" className={styles.emailPrompt}>
             <div>
@@ -16,7 +17,7 @@ const EmailPrompt=()=>{
             <div>
                 <h3>Your Email Address</h3>
                 <p>Enter your email addrress to get started.</p>
-                <TextFieldWithEmailIcon/>
+                <TextFieldWithEmailIcon placeholder="Your email address"/>
             </div>
         </div>
     )

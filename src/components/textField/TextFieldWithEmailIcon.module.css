@@ -1,0 +1,57 @@
+.textFieldWithIcon{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textFieldWithIcon > *{
+    width: 100%;
+}
+
+.typingArea{
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.typingArea > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.typingArea >:first-child{
+    flex: 1;
+    background: url("./emailIcon.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.typingArea >:nth-child(2){
+    flex: 9;
+}
+
+.typingArea >:nth-child(2) input[type="text"]{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding-top: auto;
+}
+
+
+.errorArea{
+    padding: 2px;
+    color: rgb(191, 77, 77);
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
